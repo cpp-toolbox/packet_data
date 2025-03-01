@@ -1,5 +1,5 @@
-#ifndef PACKETS_HPP
-#define PACKETS_HPP
+#ifndef PACKET_DATA_HPP
+#define PACKET_DATA_HPP
 
 #include <cstdint>
 #include <vector>
@@ -16,4 +16,4 @@ struct PacketWithSize {
     size_t size;            // Size of the packet data 1 unit equals 1 byte = 8 bits
 };
 
-#endif
+#endif // PACKET_DATA_HPP
